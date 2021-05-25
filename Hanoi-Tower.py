@@ -11,7 +11,7 @@ Tower of Hanoi is a mathematical puzzle where we have three rods and n disks. Th
 """
 def HanoiTower(n,source,aux,dest):
     if n==1:
-        print("Move disk from {source} to {dest}")
+        print(f"Move disk from {source} to {dest}")
    
     else:
         HanoiTower(n-1,source,dest,aux)
